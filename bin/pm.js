@@ -11,6 +11,7 @@ let main = ["model", "transform", "state", "view",
             "schema-basic", "schema-list"]
 let mods = main.concat(["menu", "example-setup", "markdown", "dropcursor", "test-builder", "changeset"])
 let modsAndWebsite = mods.concat("website")
+main = mods
 
 let projectDir = join(__dirname, "..")
 
